@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include <string.h> 
 
 // Desafio Super Trunfo - Países
 // Tema 1 - Cadastro das cartas
@@ -39,9 +40,11 @@ int main() {
 
     printf("Digite o código da carta: ");
     scanf("%s", codigo1);
+    getchar(); 
 
     printf("Digite o nome da cidade: ");
-    scanf(" %[^\n]", cidade1);  
+    fgets(cidade1, sizeof(cidade1), stdin);
+    cidade1[strcspn(cidade1, "\n")] = '\0'; 
 
     printf("Digite a população: ");
     scanf("%d", &populacao1);
@@ -63,9 +66,11 @@ int main() {
 
     printf("Digite o código da carta: ");
     scanf("%s", codigo2);
+    getchar(); 
 
     printf("Digite o nome da cidade: ");
-    scanf(" %[^\n]", cidade2); 
+    fgets(cidade2, sizeof(cidade2), stdin);
+    cidade2[strcspn(cidade2, "\n")] = '\0'; 
 
     printf("Digite a população: ");
     scanf("%d", &populacao2);
@@ -84,7 +89,7 @@ int main() {
 
   // Demonstração da Carta 1
 
-    printf("Carta 1");
+    printf("Carta 1\n");
     printf("Estado: %c\n", estado1);
     printf("Código: %s\n", codigo1);
     printf("Nome da Cidade: %s\n", cidade1);
@@ -95,7 +100,7 @@ int main() {
 
   // Demonstração da Carta 2
 
-    printf("Carta 2");
+    printf("Carta 2\n");
     printf("Estado: %c\n", estado2);
     printf("Código: %s\n", codigo2);
     printf("Nome da Cidade: %s\n", cidade2);
