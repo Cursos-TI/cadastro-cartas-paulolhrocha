@@ -157,87 +157,87 @@ int main() {
 
     switch (opcao) {
         case 1:
-            printf("Atributo escolhido: População\n");
-            printf("%s: %lu habitantes\n", cidade1, populacao1);
-            printf("%s: %lu habitantes\n", cidade2, populacao2);
+            printf("Atributo escolhido: População\n\n");
+            printf("%s: %lu habitantes\n\n", cidade1, populacao1);
+            printf("%s: %lu habitantes\n\n", cidade2, populacao2);
             if (populacao1 > populacao2)
-                printf("Resultado: %s venceu!\n", cidade1);
+                printf("Resultado: %s venceu!\n\n", cidade1);
             else if (populacao2 > populacao1)
-                printf("Resultado: %s venceu!\n", cidade2);
+                printf("Resultado: %s venceu!\n\n", cidade2);
             else
-                printf("Resultado: Empate!\n");
+                printf("Resultado: Empate!\n\n");
             break;
 
         case 2:
-            printf("Atributo escolhido: Área\n");
-            printf("%s: %.2f km²\n", cidade1, area1);
-            printf("%s: %.2f km²\n", cidade2, area2);
+            printf("Atributo escolhido: Área\n\n");
+            printf("%s: %.2f km²\n\n", cidade1, area1);
+            printf("%s: %.2f km²\n\n", cidade2, area2);
             if (area1 > area2)
-                printf("Resultado: %s venceu!\n", cidade1);
+                printf("Resultado: %s venceu!\n\n", cidade1);
             else if (area2 > area1)
-                printf("Resultado: %s venceu!\n", cidade2);
+                printf("Resultado: %s venceu!\n\n", cidade2);
             else
-                printf("Resultado: Empate!\n");
+                printf("Resultado: Empate!\n\n");
             break;
 
         case 3:
-            printf("Atributo escolhido: PIB\n");
-            printf("%s: %.2f bilhões de reais\n", cidade1, pib1);
-            printf("%s: %.2f bilhões de reais\n", cidade2, pib2);
+            printf("Atributo escolhido: PIB\n\n");
+            printf("%s: %.2f bilhões de reais\n\n", cidade1, pib1);
+            printf("%s: %.2f bilhões de reais\n\n", cidade2, pib2);
             if (pib1 > pib2)
-                printf("Resultado: %s venceu!\n", cidade1);
+                printf("Resultado: %s venceu!\n\n", cidade1);
             else if (pib2 > pib1)
-                printf("Resultado: %s venceu!\n", cidade2);
+                printf("Resultado: %s venceu!\n\n", cidade2);
             else
-                printf("Resultado: Empate!\n");
+                printf("Resultado: Empate!\n\n");
             break;
 
         case 4:
-            printf("Atributo escolhido: Pontos Turísticos\n");
-            printf("%s: %d pontos\n", cidade1, pontos_turisticos1);
-            printf("%s: %d pontos\n", cidade2, pontos_turisticos2);
+            printf("Atributo escolhido: Pontos Turísticos\n\n");
+            printf("%s: %d pontos\n\n", cidade1, pontos_turisticos1);
+            printf("%s: %d pontos\n\n", cidade2, pontos_turisticos2);
             if (pontos_turisticos1 > pontos_turisticos2)
-                printf("Resultado: %s venceu!\n", cidade1);
+                printf("Resultado: %s venceu!\n\n", cidade1);
             else if (pontos_turisticos2 > pontos_turisticos1)
-                printf("Resultado: %s venceu!\n", cidade2);
+                printf("Resultado: %s venceu!\n\n", cidade2);
             else
-                printf("Resultado: Empate!\n");
+                printf("Resultado: Empate!\n\n");
             break;
 
         case 5:
-            printf("Atributo escolhido: Densidade Demográfica (menor vence)\n");
-            printf("%s: %.2f hab/km²\n", cidade1, densidade1);
-            printf("%s: %.2f hab/km²\n", cidade2, densidade2);
+            printf("Atributo escolhido: Densidade Demográfica (menor vence)\n\n");
+            printf("%s: %.2f hab/km²\n\n", cidade1, densidade1);
+            printf("%s: %.2f hab/km²\n\n", cidade2, densidade2);
             if (densidade1 < densidade2)
-                printf("Resultado: %s venceu!\n", cidade1);
+                printf("Resultado: %s venceu!\n\n", cidade1);
             else if (densidade2 < densidade1)
-                printf("Resultado: %s venceu!\n", cidade2);
+                printf("Resultado: %s venceu!\n\n", cidade2);
             else
-                printf("Resultado: Empate!\n");
+                printf("Resultado: Empate!\n\n");
             break;
 
         case 6:
-            printf("Atributo escolhido: PIB per Capita\n");
-            printf("%s: %.2f reais\n", cidade1, renda1);
-            printf("%s: %.2f reais\n", cidade2, renda2);
+            printf("Atributo escolhido: PIB per Capita\n\n");
+            printf("%s: %.2f reais\n\n", cidade1, renda1);
+            printf("%s: %.2f reais\n\n", cidade2, renda2);
             if (renda1 > renda2)
-                printf("Resultado: %s venceu!\n", cidade1);
+                printf("Resultado: %s venceu!\n\n", cidade1);
             else if (renda2 > renda1)
-                printf("Resultado: %s venceu!\n", cidade2);
+                printf("Resultado: %s venceu!\n\n", cidade2);
             else
-                printf("Resultado: Empate!\n");
+                printf("Resultado: Empate!\n\n");
             break;
 
         case 7:
-            printf("Atributo escolhido: Super Poder\n");
-            printf("%s: %.2f pontos\n", cidade1, superPoder1);
-            printf("%s: %.2f pontos\n", cidade2, superPoder2);
+            printf("Atributo escolhido: Super Poder\n\n");
+            printf("%s: %.2f pontos\n\n", cidade1, superPoder1);
+            printf("%s: %.2f pontos\n\n", cidade2, superPoder2);
             if (superPoder1 > superPoder2)
-                printf("Resultado: %s venceu!\n", cidade1);
+                printf("Resultado: %s venceu!\n\n", cidade1);
             else if (superPoder2 > superPoder1)
-                printf("Resultado: %s venceu!\n", cidade2);
+                printf("Resultado: %s venceu!\n\n", cidade2);
             else
-                printf("Resultado: Empate!\n");
+                printf("Resultado: Empate!\n\n");
             break;
 
         default:
